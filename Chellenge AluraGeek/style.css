@@ -1,0 +1,127 @@
+/* CABEÇALHO */
+
+.cabecalho {
+    background-color: #5300C8;
+    border: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.heart {
+    color: red;
+}
+
+.alura {
+    color: white;
+}
+
+
+main {
+    display: flex;
+}
+
+/* PRODUTOS */
+
+h1 {
+    display: flex;
+    justify-content: center;
+    width: 100vh;
+}
+
+.produtos {
+    flex: 1;
+    width: 50vh;    
+    gap: 10px;
+}
+
+img {
+    border-radius: 5px;
+    border: 5px;
+    border-color: black;
+    width: 176px;
+    height: 174px;
+}
+
+.img__delete {
+    width: 24px;
+    height: 24px;
+}
+
+.card {
+    display: flex;
+    padding: 5%;
+    background-color: #5D04D9;
+    border-radius: 7px;
+    border: 4px;
+    border-color: black;
+    flex-direction: column;
+}
+
+.preco {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.linha1, .linha2, .linha3 {
+    display: flex;    
+    gap: 10px;
+    padding: 10px;
+}
+
+button {
+    border-radius: 6px;
+}
+
+/* COMPRA */
+.compra {
+    display: flex;
+    width: 50vh;    
+    gap: 10px;
+    flex-direction: column;
+}
+
+input {
+    width: 250px;
+    height: 35px;
+    border-radius: 20px;
+    border-color: #03318C;
+}
+
+.botoes {
+    display: flex;
+    gap: 16px;
+}
+
+button:hover {
+    background-color: #03318C;
+}
+
+.add {
+    width: 120px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #5D04D9;
+    color: white;
+}
+
+/* RODAPÉ */
+.rodape {
+    background-color: #5300C8;
+    display: flex;
+    justify-content: center;
+}
+
+.desenvolvedor {
+    color: white;
+    flex-direction: row;
+}
